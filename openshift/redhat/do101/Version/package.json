@@ -16,5 +16,8 @@
     "url": "https://github.com/jleach1a/trainings/issues"
   },
   "homepage": "https://github.com/jleach1a/trainings#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
