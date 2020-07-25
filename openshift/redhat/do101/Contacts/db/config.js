@@ -1,5 +1,5 @@
 require('dotenv').config();
-const DB_CONFIG = process.env.DB_CONFIG || 'postgresql://userV4N:EABgVRTo8MWEqnCf@localhost:5432/mydb';
+const DB_CONFIG = process.env.DB_CONFIG || 'postgresql://dbuser:dbpassword@dbservice:5432/dbname';
 const { Pool } = require('pg');
 
 const pgconn = new Pool({
